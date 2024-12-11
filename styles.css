@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+}
+
+Body {
+    height: 100%;
+}
+
+.HEADERCOMPLET {
+    height: 630px;
+    width: 100%;
+}
+
+.bandeauBlanc {
+    height: 90px;
+    width: 100%;
+    position: relative;
+}
+
+.logoHeader {
+    background-image: url('img/Ultimelogo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 72px;
+    width: 140px;
+    top: 10%;
+    left: 18%;
+
+}
+
+.listeicone {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+
+.listeicone a {
+    text-decoration: none;
+    color: white;
+}
+
+.fac {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.fac i {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    background-color: transparent;
+}
+
+.cafe {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.cafe i {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    background-color: transparent;
+}
+
+
+.navBarHeader {
+    height: 50px;
+    width: 100%;
+    background-color: #f1720b;
+    position: relative;
+}
+
+.photoHeader {
+    background-image: url('img/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.listeNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1400px;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.listeNav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 150px;
+    text-align: center;
+}
+
+.listeNav li:hover {
+    border-bottom: white 4px solid;
+    color: white;
+    background-color: #421E08;
+}
+
+.boiteDouble {
+    height: 251px;
+    width: 990px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barefoot {
+    background-image: url('img/barefoot.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 470px;
+}
+
+.titreboiteDouble {
+    padding: 20px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    border-top: #f1720b solid 3px;
+}
+
+.textboiteDouble {
+    padding-left: 20px;
+    color: white;
+    font-size: 18px
+}
+
+.Skysurf {
+    background-image: url('img/sky.jpg');
+    height: 250px;
+    width: 470px;
+}
+
