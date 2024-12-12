@@ -87,7 +87,7 @@ Body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
 
@@ -125,6 +125,9 @@ Body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
 }
 
 .barefoot {
@@ -156,3 +159,16 @@ Body {
     width: 470px;
 }
 
+.posbtn {
+    position: absolute;
+    padding-left: 20px;
+    top: 75%;
+}
+.btn   {
+    background-color: #f1720b;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+}
