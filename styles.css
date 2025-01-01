@@ -171,9 +171,6 @@ Body {
     font-size: 20px;
     font-weight: bold;
     border: 0;
-<<<<<<< HEAD
-}
-=======
     cursor: pointer;
 }
 
@@ -259,5 +256,4 @@ Body {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-}
->>>>>>> 049dccd (work)
+};
